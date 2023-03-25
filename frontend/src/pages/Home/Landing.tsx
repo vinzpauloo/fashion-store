@@ -19,6 +19,7 @@ const Landing = () => {
       <Box className="side left">
         <Box className="image men"></Box>
 
+        <UserList />
         <Box className="caption">
           <Typography className="header">Men</Typography>
           <Link sx={styles.link}>
